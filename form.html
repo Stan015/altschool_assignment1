@@ -38,12 +38,12 @@
 
             <div>
                 <div>
-                    <label for="gender">Gender</label>
-                    <input type="search" name="gender" list="gender_list" placeholder="Select your gender">
-                    <datalist id="gender_list">
-                        <option value="Male"></option>
-                        <option value="Female"></option>
-                    </datalist>
+                    <label for="gender_list">Gender</label>
+                    <select name="gender_list" id="gender_list" title="gender_list">
+                        <option value="select your gender">Select your gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
                 </div>
 
                 <div>
@@ -59,46 +59,46 @@
                 </div>
 
                 <div>
-                    <label for="edu_level">Education Level</label>
-                    <input type="search" name="edu_level" id="edu_level" list="edu_level_options" placeholder="Select level of education">
-                    <datalist id="edu_level_options">
-                        <option value="BSc"></option>
-                        <option value="MSc"></option>
-                        <option value="Deploma"></option>
-                        <option value="Doctorate (PhD)"></option>
-                        <option value="High School/Secondary School"></option>
-                        <option value="Undergraduate"></option>
-                        <option value="Junior/Middle School"></option>
-                        <option value="Post Graduate"></option>
-                    </datalist>
+                    <label for="edu_level_options">Education Level</label>
+                    <select name="edu_level_options" title="edu_level_options" id="edu_level_options">
+                        <option value="Select level of education">Select level of education</option>
+                        <option value="BSc">BSc</option>
+                        <option value="MSc">MSc</option>
+                        <option value="Deploma">Deploma</option>
+                        <option value="Doctorate (PhD)">Doctorate (PhD)</option>
+                        <option value="High School/Secondary School">High School/Secondary School</option>
+                        <option value="Undergraduate">Undergraduate</option>
+                        <option value="Junior/Middle School">Junior/Middle School</option>
+                        <option value="Post Graduate">Post Graduate</option>
+                    </select>
                 </div>
             </div>
 
             <div>
                 <div>
-                    <label for="country">Country</label>
-                    <input type="search" name="country" id="country" list="country_of_residence" placeholder="Select your country">
-                    <datalist id="country_of_residence">
-                        <option value="Afghanistan"></option>
-                        <option value="Albania"></option>
-                        <option value="Algeria"></option>
-                        <option value="Andorra"></option>
-                        <option value="Angola"></option>
-                        <option value="Antigua and Barbuda"></option>
-                        <option value="Argentina"></option>
-                        <option value="Armenia"></option>
-                        <option value="Australia"></option>
-                        <option value="Austria"></option>
-                        <option value="Belgium"></option>
-                        <option value="Belize"></option>
-                        <option value="Benin"></option>
-                        <option value="Botswana"></option>
-                        <option value="Brazil"></option>
-                        <option value="Brunei"></option>
-                        <option value="United Kingdom"></option>
-                        <option value="United States of America"></option>
+                    <label for="country_of_residence">Country</label>
+                    <select name="country_of_residence" title="country_of_residence" id="country_of_residence">
+                        <option value="select your country">Select your country</option>
+                        <option value="Afghanistan">Afghanistan</option>
+                        <option value="Albania">Albania</option>
+                        <option value="Algeria">Algeria</option>
+                        <option value="Andorra">Andorra</option>
+                        <option value="Angola">Angola</option>
+                        <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Armenia">Armenia</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Austria">Austria</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="Belize">Belize</option>
+                        <option value="Benin">Benin</option>
+                        <option value="Botswana">Botswana</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Brunei">Brunei</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="United States of America">United States of America</option>
                         <!-- More countries can be added here to include all countries as options -->
-                    </datalist>
+                    </select>
                 </div>
 
                 <div>
@@ -110,12 +110,12 @@
             <div>
                 <div>
                     <label for="employment_status">Employment Status</label>
-                    <input type="search" name="employment_status" id="employment_status" list="emp_status" placeholder="Select employment status">
-                    <datalist id="emp_status">
-                        <option value="Employed"></option>
-                        <option value="Unemployed"></option>
-                        <option value="Self-employed"></option>
-                    </datalist>
+                    <select name="employment_status" title="employment_status" id="employment_status">
+                        <option value="Employment status">Select your employment status</option>
+                        <option value="Employed">Employed</option>
+                        <option value="Unemployed">Unemployed</option>
+                        <option value="Self-employed">Self-employed</option>
+                    </select>
                 </div>
 
                 <div>
@@ -126,39 +126,41 @@
 
             <div>
                 <div>
-                    <label for="school">Choose School</label>
-                    <input type="search" name="school" id="school" list="list_of_schools" placeholder="Select school">
-                    <datalist id="list_of_schools">
-                        <option value="School of Business"></option>
-                        <option value="School of Creative Economy"></option>
-                        <option value="School of Data"></option>
-                        <option value="School of Engineering"></option>
-                        <option value="School of Product"></option>
-                    </datalist>
+                    <label for="list_of_schools">Choose School</label>
+                    <select name="list_of_schools" title="list_of_schools" id="list_of_schools">
+                        <option value="Select school">Select school</option>
+                        <option value="School of Business">School of Business</option>
+                        <option value="School of Creative Economy">School of Creative Economy</option>
+                        <option value="School of Data">School of Data</option>
+                        <option value="School of Engineering">School of Engineering</option>
+                        <option value="School of Product">School of Product</option>
+                    </select>
                 </div>
 
                 <div>
-                    <label for="course_of_study">Choose Course of Study</label>
-                    <input type="search" name="course_of_study" id="course_of_study" list="list_of_courses" placeholder="Select Course">
-                    <datalist id="list_of_courses">
-                        <option value=""></option>
-                    </datalist>
+                    <label for="list_of_courses">Choose Course of Study</label>
+                    <select name="list_of_courses" title="list_of_courses" id="list_of_courses">
+                        <option value="Select course of study">Select course of study</option>
+                        <option value="Frontend engineering">Frontend engineering</option>
+                        <option value="Backend engineering">Backend engineering</option>
+                        <option value="Cloud engineering">Cloud engineering</option>
+                    </select>
                 </div>
             </div>
             
             <div>
                 <div>
                     <label for="hear_about_us">How did you hear about us?</label>
-                    <input type="search" name="hear_about_us" id="hear_about_us" list="social_media_options" placeholder="Select Channel">
-                    <datalist id="social_media_options">
-                        <option value="Twitter"></option>
-                        <option value="LinkedIn"></option>
-                        <option value="Instagram"></option>
-                        <option value="YouTube"></option>
-                        <option value="Facebook"></option>
-                        <option value="Friend"></option>
-                        <option value="Bill Board"></option>
-                    </datalist>
+                    <select name="social_media_options" title="social_media_options" id="social_media_options">
+                        <option value="Select Channel">Select Channel</option>
+                        <option value="Twitter">Twitter</option>
+                        <option value="LinkedIn">LinkedIn</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="YouTube">YouTube</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Friend">Friend</option>
+                        <option value="Bill Board">Bill Board</option>
+                    </select>
                 </div>
 
                 <div>
